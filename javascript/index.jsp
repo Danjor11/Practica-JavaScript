@@ -11,13 +11,30 @@
 <body>
     <header>
         <h1>Bienvenidos a SuperFrutas</h1>
-        <script src="js/saludo.js"></script>
     </header>      
-    <br></br>
+
+    <button id="boton" type="button">Mostrar información del cliente</button>
+    
+    <p>
+        <em><script src="js/saludo.js"></script></em>
+    </p>
     <p>
         <em>Productos Disponibles para la Venta</em>
-        <div id="cost">Costo: </div>
-    </p>         
+    </p> 
+    <div id="cost">Costo: </div>
+
+    <div class="message">Existencias en bodega
+    <span id="stock"></span>
+    </div>
+
+    <div class="message">Enviado a domicilio
+    <span id="envio"></span>
+    </div>
+
+    <script src="js/stock.js"></script>
+    <script src="js/factura.js"></script>
+    <script src="js/clientes.js"></script>
+
 </body>
 </html>
 

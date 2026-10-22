@@ -109,6 +109,24 @@ p {
     border-left: 1px solid #bcbdc0;
 }
 
+#boton {
+    display: block;
+    clear: both;
+    margin: 25px 0 25px 50px;
+    padding: 12px 20px;
+    background-color: #D47A55;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#boton:hover {
+    background-color: #4A3B32;
+}
+
 /* Border under box when you move script in the last example */
 p + script + h3 {
     padding-bottom: 20px;
