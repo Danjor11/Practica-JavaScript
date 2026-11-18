@@ -1,11 +1,11 @@
-var existencias;
-var enviado;
+var existencias = true;
+var enviado = false;
 
-existencias=true;
-enviado=false;
-
-var elStock=document.getElementById('stock');
+var elStock = document.getElementById('stock');
 elStock.className=existencias;
 
-var elEnvio=document.getElementById('envio');
+var elEnvio = document.getElementById('envio');
 elEnvio.className=enviado;
+
+console.log("Existencias: " + existencias);
+console.log("Enviado: " + enviado);

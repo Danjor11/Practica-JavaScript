@@ -15,13 +15,16 @@
 
     <button id="boton" type="button">Mostrar información del cliente</button>
     
-    <p>
-        <em><script src="js/saludo.js"></script></em>
-    </p>
+    <div id="saludo-container">
+        <script src="js/saludo.js"></script>
+    </div>
     <p>
         <em>Productos Disponibles para la Venta</em>
     </p> 
+    <div id="productos"></div>
+    
     <div id="cost">Costo: </div>
+    <img src="images/vegetables.jpg" alt="vegetales" width="125px" height="75px">
 
     <div class="message">Existencias en bodega
     <span id="stock"></span>
@@ -34,6 +37,7 @@
     <script src="js/stock.js"></script>
     <script src="js/factura.js"></script>
     <script src="js/clientes.js"></script>
+    <script src="js/productos.js"></script>
 
 </body>
 </html>

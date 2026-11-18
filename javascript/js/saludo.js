@@ -2,18 +2,17 @@ var today = new Date();
 var hourNow = today.getHours();
 var saludo;
 
-console.log(today);
-console.assert(hourNow);
+console.log("Fecha y hora actual: " + today);
 
-if(hourNow > 18)
+if(hourNow >= 18)
 {
     saludo = "Buenas noches";
 }
-else if (hourNow > 12)
+else if (hourNow >= 12)
 {
     saludo = "Buenas Tardes";
 }
-else if (hourNow > 0 )
+else if (hourNow >= 0 )
 {
     saludo = "Buenos días";
 }
@@ -35,5 +34,4 @@ for (let clave in usuario)
 }
 
 
-document.write('<h3>'+saludo+'</h3>');
-
+document.write('<h3>' + saludo + '</h3>');

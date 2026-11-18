@@ -8,7 +8,7 @@ var persona = {
 };
 
 function saludo(nombre, correo) {
-    alert("Hola " + nombre + " de correo: " + correo);
+    alert("Bienvenido, " + nombre + " con correo: " + correo);
 }
 
 var boton = document.getElementById("boton");
